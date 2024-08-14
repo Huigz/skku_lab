@@ -37,7 +37,7 @@ education:
       year: 2008
 email: ""
 user_groups:
-  - Master
+  - 석사과정
 last_name: Su
 first_name: jm
 ---
