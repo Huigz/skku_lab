@@ -3,8 +3,7 @@ organizations:
   - name: Stanford University
     url: ""
 superuser: false
-authors:
-  - 吳恩達
+
 title: jmsu 소가모
 role: SKKU 사회학 석사과정
 bio: "\b안녕하세요! 소가모 입니다."
@@ -38,9 +37,9 @@ education:
       year: 2008
 email: ""
 user_groups:
-  - 석사과정
-last_name: Wu
-first_name: Alice
+  - Master
+last_name: Su
+first_name: jm
 ---
 
 吳恩達 is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
