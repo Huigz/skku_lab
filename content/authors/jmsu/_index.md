@@ -2,9 +2,9 @@
 organizations:
   - name: Stanford University
     url: ""
-superuser: false
+superuser: true
 
-title: jmsu 소가모
+title: 소가모
 role: SKKU 사회학 석사과정
 bio: "\b안녕하세요! 소가모 입니다."
 interests:

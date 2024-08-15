@@ -6,7 +6,7 @@ summary: 카카오, '2024 공공선 융합 포럼'에서 디지털 안전에 관
 draft: false
 featured: false
 image:
-  filename: featured.jpg
+  filename: featured.webp
   focal_point: Smart
   preview_only: false
 ---
