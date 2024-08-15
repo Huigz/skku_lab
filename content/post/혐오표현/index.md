@@ -6,7 +6,7 @@ summary: 본적 없는 혐오 판친다…요즘 "틀딱""잼민" 이 말 폭증
 draft: false
 featured: false
 image:
-  filename: featured
+  filename: featured.jpg
   focal_point: Smart
   preview_only: false
 ---
