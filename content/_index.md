@@ -10,6 +10,7 @@ sections:
     content:
       slides:
       - title: 👋 Welcome to SKKU LAB
+        content: Social BigData Lab
         align: center
         background:
           image:
