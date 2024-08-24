@@ -1,9 +1,4 @@
 ---
-organizations:
-  - name: Stanford University
-    url: ""
-superuser: true
-
 title: 소가모
 role: SKKU 사회학 석사과정
 bio: "\b안녕하세요! 소가모 입니다."
@@ -14,28 +9,17 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:test@example.org
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: mailto:jmsu@g.skku.edu
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/Huigz
+organizations:
+  - name: SKKU
+    url: ""
 education:
-  courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
-email: ""
+  courses: []
+email: jmsu@g.skku.edu
+superuser: true
 user_groups:
   - 석사과정
 last_name: Su
