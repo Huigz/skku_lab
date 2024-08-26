@@ -1,6 +1,6 @@
 ---
-title: 조성권
-role: 사회학 박사
+title: 구정우
+role: 사회학 교수
 avatar_filename: ""
 bio: 안녕하세요! 김민석 입니다.
 interests:
@@ -22,7 +22,7 @@ organizations:
 email: gms80175064@gmail.com
 superuser: true
 user_groups:
-  - 박사
+  - 교수
 last_name: Su
 first_name: jm
 ---
