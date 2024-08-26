@@ -1,6 +1,6 @@
 ---
-title: 연윤서
-role: 사회학 석사과정
+title: 조성권
+role: 사회학 박사
 bio: "\b안녕하세요! 소가모 입니다."
 interests:
   - SocialNetworkAnalysis
@@ -18,7 +18,7 @@ organizations:
     url: skku.edu
 superuser: true
 user_groups:
-  - 석사과정
+  - 박사
 last_name: Su
 first_name: jm
 email: jmsu@g.skku.edu
