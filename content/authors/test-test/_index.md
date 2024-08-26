@@ -3,7 +3,8 @@ title: 김민석
 role: 사회학 박사과정
 bio: 안녕하세요! 김민석 입니다.
 interests:
-  - Natural_Language_Process*
+  - Natural_Language_Process
+  - ""
 social:
   - icon: envelope
     icon_pack: fas
