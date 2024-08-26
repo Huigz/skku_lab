@@ -19,7 +19,7 @@ social:
 organizations:
   - name: SKKU
     url: https://www.skku.edu/skku/index.do
-email: gms80175064@gmail.com
+email: rkskekfk@naver.com
 superuser: true
 user_groups:
   - 교수
