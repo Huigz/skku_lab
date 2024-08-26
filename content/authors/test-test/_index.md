@@ -13,7 +13,7 @@ social:
     link: https://gms80175064.github.io/
 organizations:
   - name: SKKU
-    url: skku.edu
+    url: https://www.skku.edu/skku/index.do
 superuser: true
 user_groups:
   - 박사과정
