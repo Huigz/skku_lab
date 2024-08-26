@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: SKKU LAB NAME # Website name
-baseURL: 'https://example.com/' # Website URL
+title: 솜씨 SomC Lab # Website name
+baseURL: 'https://somclab.netlify.app' # Website URL
 
 ############################
 ## LANGUAGE

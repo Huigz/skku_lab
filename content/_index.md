@@ -9,8 +9,8 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to SKKU LAB
-        content: Social BigData Lab
+      - title: 👋 Welcome to 솜씨 랩
+        content: "성균관대학교 소셜빅데이터 연구실"
         align: center
         background:
           image:
