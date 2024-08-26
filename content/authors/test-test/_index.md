@@ -12,7 +12,7 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: gms80175064@gmail.com
+    link: mailto:gms80175064@gmail.com
   - icon: github
     icon_pack: fab
     link: https://gms80175064.github.io/
