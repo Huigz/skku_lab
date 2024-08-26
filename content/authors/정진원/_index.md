@@ -1,6 +1,6 @@
 ---
-title: 정진원
-role: 사회학 박사
+title: 연윤서
+role: 사회학 석사과정
 avatar_filename: ""
 bio: 안녕하세요! 김민석 입니다.
 interests:
@@ -22,7 +22,7 @@ organizations:
 email: gms80175064@gmail.com
 superuser: true
 user_groups:
-  - 박사
+  - 석사과정
 last_name: Su
 first_name: jm
 ---
