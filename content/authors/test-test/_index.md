@@ -4,11 +4,11 @@ role: 사회학 박사과정
 avatar_filename: ""
 bio: 안녕하세요! 김민석 입니다.
 interests:
-  - Hate Speech
-  - Digital Sociology
-  - Intergenerational Conflict
-  - Natural Language Process
-  - Social Big Data
+  - 혐오표현
+  - 디지털 사회학
+  - 세대 갈등
+  - 자연어 처리
+  - 소셜 빅데이터
 social:
   - icon: envelope
     icon_pack: fas
