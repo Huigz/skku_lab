@@ -11,7 +11,7 @@ all_day: false
 event: ASA
 event_url: https://www.asanet.org/
 featured: false
-authors: [jmsu]
+authors: [구정우]
 url_video: "https://www.youtube.com/watch?v=wQETifLLq7A"
 url_slides: ""
 address:
