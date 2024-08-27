@@ -10,7 +10,7 @@ baseURL: 'https://somclab.netlify.app' # Website URL
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: kr
+defaultContentLanguage: en
 hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
 removePathAccents: true
