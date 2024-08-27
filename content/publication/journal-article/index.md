@@ -16,8 +16,7 @@ abstract: >-
 
 
   By expanding our understanding of how hatred shifts and evolves in online communities, our study provides theoretical and practical implications for both researchers and policy-makers.
-slides: example
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_pdf: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0300530
 publication_types:
   - article-journal
 authors:
@@ -36,35 +35,20 @@ publication: "*PLoS ONE, 19*(5)"
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
   tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin
   condimentum.
-url_dataset: ""
-url_project: ""
 publication_short: ""
-url_source: ""
-url_video: ""
+url_source: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0300530"
 title: The hatred of all against all? Evidence from online community platforms
   in South Korea
-doi: ""
+doi: "10.17605/OSF.IO/EBDJ7"
 featured: false
 tags:
-  - Source Themes
+  - hateful speech
 projects: []
 image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
+  caption: "Figures"
   focal_point: ""
   preview_only: false
 date: 2024-05-06T00:00:00.000Z
-url_slides: ""
 publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
-url_code: https://github.com/HugoBlox/hugo-blox-builder
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
