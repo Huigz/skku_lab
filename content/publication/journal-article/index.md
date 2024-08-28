@@ -17,6 +17,8 @@ abstract: >-
 
   By expanding our understanding of how hatred shifts and evolves in online communities, our study provides theoretical and practical implications for both researchers and policy-makers.
 url_pdf: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0300530
+title: The hatred of all against all? Evidence from online community platforms
+  in South Korea
 publication_types:
   - article-journal
 authors:
@@ -31,23 +33,19 @@ author_notes:
   - Equal contribution
   - Equal contribution
   - Equal contribution
+doi: 10.17605/OSF.IO/EBDJ7
 publication: "*PLoS ONE, 19*(5)"
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
-  tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin
-  condimentum.
 publication_short: ""
-url_source: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0300530"
-title: The hatred of all against all? Evidence from online community platforms
-  in South Korea
-doi: "10.17605/OSF.IO/EBDJ7"
 featured: false
 tags:
   - hateful speech
 projects: []
 image:
-  caption: "Figures"
+  caption: Figures
   focal_point: ""
   preview_only: false
+summary: ""
+url_source: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0300530
 date: 2024-05-06T00:00:00.000Z
 publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
