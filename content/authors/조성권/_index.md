@@ -7,7 +7,7 @@ interests:
   - 텍스트마이닝
   - 저널리즘
   - 인권
-  - 개발협
+  - 개발협력
 social:
   - icon: envelope
     icon_pack: fas
