@@ -1,27 +1,25 @@
 ---
 title: 조성권
 role: 사회학 박사
-bio: "\b안녕하세요! 소가모 입니다."
+avatar_filename: avatar.jpg
+bio: "\b안녕하세요! 조성권 입니다."
 interests:
-  - SocialNetworkAnalysis
-  - Crawler
-  - BigData
+  - 텍스트마이닝
+  - 저널리즘
+  - 인권
+  - 개발협
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:jmsu@g.skku.edu
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/Huigz
+    link: mailto:crusian@skku.edu
 organizations:
   - name: SKKU
     url: skku.edu
+email: crusian@skku.edu
 superuser: true
 user_groups:
   - 박사
 last_name: Su
 first_name: jm
-email: jmsu@g.skku.edu
 ---
-
-안녕하세요! 저는 중국에서 온 JM Su 소가모입니다. 중학교 때부터 파이썬 같은 프로그래밍에 흥미가 생겨 파이썬 2버전을 스스로 공부하며, 크롤링 프로젝트도 몇 가지 만들었습니다. 저는 고등학교 졸업 후 한국에 와서 사회 문제에 관심이 많아 사회학을 전공하게 되었고 성균관대학교에서 사회학과 & 소프트웨어 융합 전공으로 4년 동안 공부했습니다. 석사 과정에 들어간 후, 구정우 교수님의 소셜 빅데이터 수업에서 LDA 분석에 대한 내용을 배우며 큰 도움을 받았고, 텍스트 마이닝에 대한 관심이 생겨 솜씨 랩에 가입하게 되었습니다.
+조성권 박사는 현재 성균관대학교 BK21 ‘다중격차 해소와 지속가능한 사회구현을 위한 데이터기반 소셜이노베이션 교육연구단(“소셜이노베이션 교육연구단”)’의 박사후연구원으로 재직 중이며, 다양한 주제의 소셜미디어, 보고서, 언론보도 자료를 바탕으로 텍스트마이닝을 활용하여 한국사회의 재구성 및 다중격차 해소에 기여하기 위해 노력해오고 있다. 최근에는 저널리즘과 관련하여 한국 언론보도의 공정성 및 정파성에 주목하여 관련 연구를 수행하고 있다.
