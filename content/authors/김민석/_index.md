@@ -1,7 +1,7 @@
 ---
 title: 김민석
 role: 사회학 박사과정
-avatar_filename: ""
+avatar_filename: avatar.jpg
 bio: 안녕하세요! 김민석 입니다.
 interests:
   - 혐오표현
