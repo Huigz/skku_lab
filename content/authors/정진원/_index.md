@@ -1,27 +1,26 @@
 ---
 title: 정진원
 role: 사회학 박사
-bio: "\b안녕하세요! 소가모 입니다."
+avatar_filename: avatar.jpg
+bio: "\b안녕하세요! 정진원 입니다."
 interests:
-  - SocialNetworkAnalysis
-  - Crawler
-  - BigData
+  - 미디어 사회학
+  - 문화 사회학
+  - 조직 사회학
+  - 제도화 과정
+  - 방법론
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:jmsu@g.skku.edu
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/Huigz
+    link: mailto:jinwchung@gmail.com
 organizations:
   - name: SKKU
     url: skku.edu
+email: jinwchung@gmail.com
 superuser: true
 user_groups:
   - 박사
 last_name: Su
 first_name: jm
-email: jmsu@g.skku.edu
 ---
-
-안녕하세요! 저는 중국에서 온 JM Su 소가모입니다. 중학교 때부터 파이썬 같은 프로그래밍에 흥미가 생겨 파이썬 2버전을 스스로 공부하며, 크롤링 프로젝트도 몇 가지 만들었습니다. 저는 고등학교 졸업 후 한국에 와서 사회 문제에 관심이 많아 사회학을 전공하게 되었고 성균관대학교에서 사회학과 & 소프트웨어 융합 전공으로 4년 동안 공부했습니다. 석사 과정에 들어간 후, 구정우 교수님의 소셜 빅데이터 수업에서 LDA 분석에 대한 내용을 배우며 큰 도움을 받았고, 텍스트 마이닝에 대한 관심이 생겨 솜씨 랩에 가입하게 되었습니다.
+개인, 집단, 그리고 조직의 인식과 행위에 지대한 영향을 미치지만 가시적으로 드러나지 않는 사회적・문화적 힘의 제도화 과정, 그리고 그 결과를 연구하는 것에 관심이 있습니다. 이러한 관심의 연장선 상에서 미디어 산업을 대상으로 문화산업의 제도화 과정과 문화 다양성에 관한 연구를 진행하였습니다. 현재는 다원화된 미디어 환경에서 이용자의 미디어 이용특성과 사회인식과의 관계에 대해 다양한 양적 방법론과 데이터사이언스 방법론을 적용한 연구를 진행하고 있습니다.
