@@ -14,8 +14,8 @@ social:
     icon_pack: fas
     link: mailto:jinwchung@gmail.com
 organizations:
-  - name: SKKU
-    url: skku.edu
+  - name: SKKU 인권과 개발센터
+    url: http://skkusociology.com/?page_id=47141
 email: jinwchung@gmail.com
 superuser: true
 user_groups:
