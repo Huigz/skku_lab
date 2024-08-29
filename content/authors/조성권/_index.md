@@ -13,8 +13,8 @@ social:
     icon_pack: fas
     link: mailto:crusian@skku.edu
 organizations:
-  - name: SKKU
-    url: skku.edu
+  - name: SKKU 소셜이노베이션 교육연구단
+    url: https://skb.skku.edu/sic/index.do
 email: crusian@skku.edu
 superuser: true
 user_groups:
