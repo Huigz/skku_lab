@@ -13,9 +13,6 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:gms80175064@gmail.com
-  - icon: github
-    icon_pack: fab
-    link: https://gms80175064.github.io/
 organizations:
   - name: SKKU
     url: https://www.skku.edu/skku/index.do

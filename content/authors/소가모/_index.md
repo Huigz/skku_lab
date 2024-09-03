@@ -1,7 +1,7 @@
 ---
 title: 소가모
 role: 사회학 석사과정
-bio: "\b안녕하세요! 소가모 입니다."
+bio: "안녕하세요! 소가모 입니다."
 interests:
   - SocialNetworkAnalysis
   - Crawler
@@ -10,9 +10,6 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:jmsu@g.skku.edu
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/Huigz
 organizations:
   - name: SKKU
     url: "skku.edu"

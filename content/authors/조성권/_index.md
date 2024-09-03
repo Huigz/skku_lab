@@ -2,7 +2,7 @@
 title: 조성권
 role: 사회학 박사
 avatar_filename: avatar.jpg
-bio: "\b안녕하세요! 조성권 입니다."
+bio: "안녕하세요! 조성권 입니다."
 interests:
   - 텍스트마이닝
   - 저널리즘

@@ -2,7 +2,7 @@
 title: 정진원
 role: 사회학 박사
 avatar_filename: avatar.jpg
-bio: "\b안녕하세요! 정진원 입니다."
+bio: "안녕하세요! 정진원 입니다."
 interests:
   - 미디어 사회학
   - 문화 사회학
