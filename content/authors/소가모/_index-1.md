@@ -1,15 +1,16 @@
 ---
-title: 소가모
+title: 정다빈
 role: 사회학 석사과정
-bio: 안녕하세요! 소가모 입니다.
+bio: 안녕하세요! 정다 입니다.
 interests:
-  - SocialNetworkAnalysis
-  - Crawler
-  - BigData
+  - 예술사회학
+  - 시각예술
+  - 예술경영
+  - 환경/사회/투명 경영(ESG)
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:jmsu@g.skku.edu
+    link: mailto:danbisstudio@gmail.com
 organizations:
   - name: SKKU
     url: skku.edu
@@ -18,7 +19,6 @@ user_groups:
   - 석사과정
 last_name: Su
 first_name: jm
-email: jmsu@g.skku.edu
+email: danbisstudio@gmail.com
 ---
-
-안녕하세요! 저는 중국에서 온 JM Su 소가모입니다. 중학교 때부터 파이썬 같은 프로그래밍에 흥미가 생겨 파이썬 2버전을 스스로 공부하며, 크롤링 프로젝트도 몇 가지 만들었습니다. 저는 고등학교 졸업 후 한국에 와서 사회 문제에 관심이 많아 사회학을 전공하게 되었고 성균관대학교에서 사회학과 & 소프트웨어 융합 전공으로 4년 동안 공부했습니다. 석사 과정에 들어간 후, 구정우 교수님의 소셜 빅데이터 수업에서 LDA 분석에 대한 내용을 배우며 큰 도움을 받았고, 텍스트 마이닝에 대한 관심이 생겨 솜씨 랩에 가입하게 되었습니다.
+도예가이신 부모님 덕분에 어렸을 때부터 자연스럽게 시각예술 분야에 관심을 두었습니다. 이와 같은 애정을 기반으로 예술에 대한 담론이 끊임없이 이어지는 사회를 꿈꾸며, 여전히 사람과 시각예술을 연결하는 ‘가교’의 역할을 배우는 중입니다. 시각예술 기관, 복합문화예술공간의 경영 전략이 소비자에게 미치는 영향을 연구하고 있습니다. 한결같이 호기심 어린 시선으로 예술과 사회가 서로 주고받는 것들에는 무엇이 있을지 들여다보고자 합니다.
