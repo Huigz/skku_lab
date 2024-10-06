@@ -1,33 +1,32 @@
 ---
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
-  tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin
-  condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus
-  urna, suscipit quis sapien eu, pulvinar tempor diam.
+abstract: 2024 ASA Annual Meeting IN MONTREAL
 slides: null
 url_pdf: ""
-summary: An example event.
-title: 2024 ASA
-location: USA
-date: 2024-01-01T22:00:00.000Z
-date_end: 2024-03-02T00:00:00.000Z
+summary: 2024 ASA Annual Meeting IN MONTREAL
+title: 119th ASA 
+location: MONTREAL
+date: 2024-09-12T22:00:00.000Z
+date_end: 2024-09-13T00:00:00.000Z
 all_day: false
 event: ASA
-event_url: https://example.org
+event_url: https://www.asanet.org/2024-annual-meeting/
 featured: false
-authors: []
-url_video: ""
+authors: [구정우]
+url_video: "https://www.youtube.com/watch?v=NmwqHmfWEds"
 url_slides: ""
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: "94305"
-  country: United States
-publishDate: 2017-01-01T00:00:00Z
+  street: 
+  city: MONTREAL
+  region: 
+  postcode: 
+  country: Canada
+publishDate: 2024-10-01T00:00:00Z
 tags: []
 projects: null
 image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)"
+  caption: "2024 SomC Lab x ASA"
   focal_point: Right
 url_code: ""
 ---
+
+{{< youtube NmwqHmfWEds >}}
