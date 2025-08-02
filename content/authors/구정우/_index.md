@@ -16,7 +16,6 @@ email: rkskekfk@naver.com
 superuser: true
 user_groups:
   - 교수
-last_name: Su
-first_name: jm
+
 ---
 소개

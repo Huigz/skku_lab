@@ -15,9 +15,8 @@ sections:
           - 박사
           - 박사과정
           - 석사과정
-          - Administration
-          - Visitors
-          - Alumni
+          - 학부과정
+          - Visitor
       sort_by: Params.last_name
       sort_ascending: true
     design:
