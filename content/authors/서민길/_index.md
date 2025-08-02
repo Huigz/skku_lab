@@ -9,7 +9,7 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: uss98723@naver.com
+    link: mailto:uss98723@naver.com
 organizations:
   - name: SKKU
     url: https://www.skku.edu/skku/index.do
