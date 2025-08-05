@@ -3,9 +3,10 @@ title: 소가모
 role: 사회학 석사과정
 bio: "안녕하세요! 소가모 입니다."
 interests:
-  - SocialNetworkAnalysis
-  - Crawler
+  - Social Network Analysis
   - BigData
+  - Topic Modeling
+  - Relational Sociology
 social:
   - icon: envelope
     icon_pack: fas
