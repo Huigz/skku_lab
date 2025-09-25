@@ -1,10 +1,10 @@
 ---
 title: 소가모
-role: 사회학 석사과정
+role: 사회학 박사과정
 bio: "안녕하세요! 소가모 입니다."
 interests:
   - Social Network Analysis
-  - BigData
+  - Crawler Development
   - Topic Modeling
   - Relational Sociology
 social:
@@ -17,9 +17,9 @@ organizations:
 email: jmsu@g.skku.edu
 superuser: true
 user_groups:
-  - 석사과정
+  - 박사과정
 last_name: Su
 first_name: jm
 ---
 
-안녕하세요! 저는 중국에서 온 JM Su 소가모입니다. 중학교 때부터 파이썬 같은 프로그래밍에 흥미가 생겨 파이썬 2버전을 스스로 공부하며, 크롤링 프로젝트도 몇 가지 만들었습니다. 저는 고등학교 졸업 후 한국에 와서 사회 문제에 관심이 많아 사회학을 전공하게 되었고 성균관대학교에서 사회학과 & 소프트웨어 융합 전공으로 4년 동안 공부했습니다. 석사 과정에 들어간 후, 구정우 교수님의 소셜 빅데이터 수업에서 LDA 분석에 대한 내용을 배우며 큰 도움을 받았고, 텍스트 마이닝에 대한 관심이 생겨 솜씨 랩에 가입하게 되었습니다.
+안녕하세요! 저는 중국에서 온 JM Su 소가모입니다. 관계사회학적 관점을 토대로, SNA와 토픽 모델링 등 실증적 분석 방법을 활용하여 서로 다른 장(field)에서 다양한 실천 행위와 규범에 의해 형성되는 구조적 특성을 규명하고자 합니다. 아울러 이러한 구조적 특성이 문화와 어떻게 상호작용하는지를 설명하려고 합니다.
