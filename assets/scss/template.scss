@@ -7,3 +7,47 @@
 .cta-group {
   justify-content: center;
 }
+
+// Keep long publication titles readable on the generated homepage slide.
+#section-slider .publication-slide {
+  .hero-eyebrow {
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+  }
+
+  .hero-title {
+    max-width: 1050px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: clamp(2rem, 4.5vw, 4rem);
+    line-height: 1.12;
+    text-shadow: 0 2px 18px rgba(0, 0, 0, 0.55);
+  }
+
+  .hero-lead {
+    max-width: 920px;
+    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.65);
+  }
+}
+
+@media (max-width: 576px) {
+  #section-slider .publication-slide {
+    .wg-hero {
+      margin-right: 3.25rem !important;
+      margin-left: 3.25rem !important;
+    }
+
+    .hero-title {
+      font-size: clamp(1.65rem, 8vw, 2.35rem);
+    }
+
+    .hero-lead {
+      font-size: 1rem;
+    }
+  }
+}

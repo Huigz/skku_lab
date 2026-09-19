@@ -5,9 +5,12 @@ date: 2022-10-24
 type: landing
 
 sections:
-sections:
   - block: slider
     content:
+      # Append the newest publications after the welcome slide at build time.
+      latest_publication:
+        enable: true
+        count: 3
       slides:
       - title: 👋 Welcome to 솜씨 랩
         content: "성균관대학교 소셜빅데이터 연구실"
@@ -29,10 +32,12 @@ sections:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
       is_fullscreen: true
+      # Hide the previous/next arrows while keeping autoplay and indicators.
+      show_controls: false
       # Automatically transition through slides?
-      loop: false
+      loop: true
       # Duration of transition between slides (in ms)
-      interval: 2000
+      interval: 5000
 
   - block: collection
     content:

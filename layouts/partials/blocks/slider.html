@@ -1,0 +1,161 @@
+{{/* Hugo Blox: Slider */}}
+{{/* Based on the slider block bundled with blox-bootstrap v5 at 41bd113535e8. */}}
+{{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $hash_id := .wcIdentifier }}
+{{ $slides := $block.content.slides }}
+
+{{/* Optionally append the most recent publications as generated slides. */}}
+{{ if $block.content.latest_publication.enable }}
+  {{ $publications := where $page.Site.RegularPages "Section" "publication" }}
+  {{ $publications = $publications.ByDate.Reverse }}
+  {{ $publication_count := $block.content.latest_publication.count | default 1 }}
+  {{ if gt (len $publications) 0 }}
+    {{ range first $publication_count $publications }}
+      {{ $paper := . }}
+      {{ $year := $paper.Date.Format "2006" }}
+      {{ $authors := delimit ($paper.Params.authors | default (slice)) " · " }}
+      {{ $publication := $paper.Params.publication | default "Publication" }}
+      {{ $meta := printf "%s — %s · %s" $authors $publication $year }}
+
+      {{ $background_image := dict
+        "filename" "skkubg2.jpg"
+        "position" "center"
+        "size" "cover"
+        "filters" (dict "brightness" 0.35)
+      }}
+      {{ with $paper.Resources.GetMatch "featured.*" }}
+        {{ $background_image = dict
+          "resource" .
+          "position" "center"
+          "size" "cover"
+          "filters" (dict "brightness" 0.3)
+        }}
+      {{ end }}
+
+      {{ $publication_slide := dict
+        "eyebrow" "Latest Publication"
+        "title" $paper.Title
+        "content" $meta
+        "align" "center"
+        "css_class" "publication-slide"
+        "background" (dict
+          "color" "#333"
+          "image" $background_image
+        )
+        "link" (dict
+          "icon" "book-open"
+          "icon_pack" "fas"
+          "text" "View Publications"
+          "url" ("/publication/" | relLangURL)
+        )
+      }}
+      {{ $slides = $slides | append $publication_slide }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $slide_count := len $slides }}
+{{ $show_controls := true }}
+{{ if isset $block.design "show_controls" }}
+  {{ $show_controls = $block.design.show_controls }}
+{{ end }}
+
+<!-- Indicators -->
+{{ if gt $slide_count 1 }}
+<ol class="carousel-indicators">
+  {{ range $index, $item := $slides }}
+  <li data-target="#{{$hash_id}}" data-slide-to="{{$index}}" {{if eq $index 0}}class="active"{{end}}></li>
+  {{ end }}
+</ol>
+{{ end }}
+
+<!-- Carousel slides wrapper -->
+<div class="carousel-inner">
+  {{ range $index, $item := $slides }}
+
+    {{ $style_bg := "" }}
+    {{ $style_filter := "" }}
+
+    {{with $block.design.slide_height}}
+      {{ $style_bg = printf "%s height: %s;" $style_bg . }}
+    {{end}}
+
+    {{ $bg := $item.background}}
+    {{ with $bg.color }}
+      {{ $style_bg = printf "%s background-color: %s;" $style_bg (. | default "transparent") }}
+    {{ end }}
+
+    {{ if and $bg.gradient_start $bg.gradient_end }}
+      {{ $angle := string $bg.gradient_angle | default "90" }}
+      {{ $style_bg = printf "%sbackground-image: linear-gradient(%sdeg, %s, %s);" $style_bg $angle $bg.gradient_start $bg.gradient_end }}
+    {{ end }}
+
+    {{ if or $bg.image.filename $bg.image.resource }}
+      {{ $bg_img := false }}
+      {{ with $bg.image.resource }}
+        {{ $bg_img = . }}
+      {{ else }}
+        {{ $bg_img = resources.Get (printf "media/%s" $bg.image.filename) }}
+      {{ end }}
+      {{ if $bg_img }}
+        {{ $style_bg = printf "%sbackground-image: url('%s'); background-repeat: no-repeat; background-position: %s; background-size: %s; " $style_bg $bg_img.Permalink ($bg.image.position | default "center") ($bg.image.size | default "cover") }}
+      {{ else }}
+        {{ errorf "Couldn't find `%s` in the `assets/media/` folder - please add it." $bg.image.filename }}
+      {{ end }}
+      {{ with $bg.image.filters.brightness }}
+        {{ $style_filter = printf "%s-webkit-backdrop-filter: brightness(%s); backdrop-filter: brightness(%s);" $style_filter (string .) (string .) }}
+      {{ end }}
+   {{ end }}
+
+  <div class="carousel-item{{if eq $index 0}} active{{end}} {{with $block.design.is_fullscreen}}fullscreen{{end}}{{with $item.css_class}} {{.}}{{end}}" style="{{$style_bg | safeCSS}}">
+    <div class="position-absolute d-flex w-100 h-100 justify-content-center align-items-center" style="{{$style_filter | safeCSS}}">
+      {{/* To prevent control overlap, margins are based on $carousel-control-* in bootstrap-variables.scss */}}
+      <div class="wg-hero dark container" style="margin-left: 6rem; margin-right: 6rem; text-align: {{$item.align | default "left"}};">
+          {{ with $item.eyebrow }}
+          <p class="hero-eyebrow">{{ . | markdownify | emojify }}</p>
+          {{ end }}
+
+          <h1 class="hero-title ">
+            {{ with $item.title }}{{ . | markdownify | emojify }}{{ end }}
+          </h1>
+
+          {{ with $item.content }}
+          <p class="hero-lead" style="{{if eq $item.align "center"}}margin: 0 auto 0 auto;{{else if eq $item.align "right"}}margin-left: auto; margin-right: 0{{end}}">
+            {{ . | emojify | $page.RenderString }}
+          </p>
+          {{ end }}
+
+          {{ if $item.link.url }}
+            {{ $pack := $item.link.icon_pack | default "fas" }}
+            {{ $pack_prefix := $pack }}
+            {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+              {{ $pack_prefix = "fa" }}
+            {{ end }}
+            <p>
+              <a href="{{ $item.link.url }}" class="btn btn-light btn-lg mt-3">
+                {{- with $item.link.icon -}}<i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}" style="padding-right: 10px;"></i>{{- end -}}
+                {{- $item.link.text | emojify | markdownify | safeHTML -}}
+              </a>
+            </p>
+          {{ end }}
+        </div>
+    </div>
+  </div>
+  {{ end }}
+</div>
+
+<!-- Left and right controls -->
+{{ if and (gt $slide_count 1) $show_controls }}
+<a class="carousel-control-prev" href="#{{$hash_id}}" data-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#{{$hash_id}}" data-slide="next">
+  <span class="carousel-control-next-icon"></span>
+  <span class="sr-only">Next</span>
+</a>
+{{ end }}

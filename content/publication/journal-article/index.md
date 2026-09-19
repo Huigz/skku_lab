@@ -27,12 +27,6 @@ authors:
   - 정진원
   - 손경아
   - 한경식
-author_notes:
-  - Equal contribution
-  - Equal contribution
-  - Equal contribution
-  - Equal contribution
-  - Equal contribution
 doi: 10.17605/OSF.IO/EBDJ7
 publication: "*PLoS ONE, 19*(5)"
 publication_short: ""
