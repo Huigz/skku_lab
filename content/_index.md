@@ -15,6 +15,7 @@ sections:
       - title: 👋 Welcome to 솜씨 랩
         content: "성균관대학교 소셜빅데이터 연구실"
         align: center
+        show_next_hint: true
         background:
           image:
             filename: skkubg.jpg

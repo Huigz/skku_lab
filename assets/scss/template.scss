@@ -35,7 +35,63 @@
   }
 }
 
+// Clickable directional cue on the welcome slide while carousel controls are hidden.
+#section-slider .slide-next-hint {
+  position: absolute;
+  right: clamp(1.5rem, 4vw, 4rem);
+  bottom: 4.25rem;
+  z-index: 2;
+  display: inline-flex;
+  width: 2.75rem;
+  height: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.18);
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.25rem;
+  line-height: 1;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.55);
+  animation: slide-next-hint 1.6s ease-in-out infinite;
+
+  &:hover,
+  &:focus {
+    border-color: #fff;
+    background: rgba(0, 0, 0, 0.38);
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &:focus-visible {
+    outline: 3px solid rgba(255, 255, 255, 0.85);
+    outline-offset: 3px;
+  }
+}
+
+@keyframes slide-next-hint {
+  0%,
+  100% {
+    transform: translateX(-4px);
+  }
+
+  50% {
+    transform: translateX(4px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #section-slider .slide-next-hint {
+    animation: none;
+  }
+}
+
 @media (max-width: 576px) {
+  #section-slider .slide-next-hint {
+    right: 1.25rem;
+    bottom: 4rem;
+  }
+
   #section-slider .publication-slide {
     .wg-hero {
       margin-right: 3.25rem !important;

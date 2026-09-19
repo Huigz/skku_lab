@@ -142,6 +142,13 @@
               </a>
             </p>
           {{ end }}
+
+          {{ if $item.show_next_hint }}
+            <a class="slide-next-hint" href="#{{$hash_id}}" data-slide="next" aria-label="Next slide">
+              <i class="fas fa-arrow-right" aria-hidden="true"></i>
+              <span class="sr-only">Next slide</span>
+            </a>
+          {{ end }}
         </div>
     </div>
   </div>
